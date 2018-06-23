@@ -1,0 +1,39 @@
+<resources>
+    <!--app-level utility -->
+    <string name="app_name">Monash Permaculture App</string>
+
+    <!-- Strings related to login/registration -->
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm password</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_remember_me">Remember me</string>
+    <string name="error_incorrect_email">This email address isn\'t correct</string>
+    <string name="error_incorrect_password">This password doesn\'t match your email</string>
+    <string name="error_invalid_email">Not a valid email</string>
+    <string name="error_invalid_password">Not a valid password</string>
+    <string name="error_password_nonmatch">Passwords do not match</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- strings related to knowledge bank-->
+    <string name="action_search_documents">Find a document</string>
+    <string name="action_upload_document">Upload a document</string>
+    <string name="action_choose_document">Choose a document</string>
+    <string name="action_confirm_document">Perform document upload</string>
+    <string name="dialogue_document_confirm">Confirm document upload</string>
+    <string name="action_upload_confirm_positive">Yes</string>
+    <string name="action_upload_confirm_negative">No</string>
+    <string name="prompt_select_file">Choose document:</string>
+    <string name="prompt_select_doctype">Select a document category:</string>
+    <string name="prompt_current_file">Selected file: </string>
+
+    <!-- activity titles -->
+    <string name="title_registration_activity">Register an Account</string>
+    <string name="title_home_activity">Log In or Register</string>
+    <string name="title_bank_home_activity">Knowledge Bank - Home</string>
+    <string name="title_bank_search_activity">Knowledge Bank - Search</string>
+    <string name="title_bank_upload_activity">Knowledge Bank - Upload</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KnowledgeBankUploadActivity">
+
+    <TextView
+        android:id="@+id/bank_select_file_textView"
+        style="@style/EditTextTheme"
+        android:text="@string/prompt_select_file"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h_guideline_one" />
+
+    <Spinner
+        android:id="@+id/bank_upload_doctype_spinner"
+        style="@style/ButtonTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bank_select_doctype_textView" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_guideline_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <TextView
+        android:id="@+id/bank_select_doctype_textView"
+        style="@style/EditTextTheme"
+        android:text="@string/prompt_select_doctype"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bank_choose_doc_button"
+        style="@style/ButtonTheme"
+        android:text="@string/action_choose_document"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bank_select_file_textView" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_guideline_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <TextView
+        android:id="@+id/bank_current_file_prompt_textView"
+        style="@style/EditTextTheme"
+        android:layout_marginEnd="8dp"
+        android:layout_width="wrap_content"
+        android:text="@string/prompt_current_file"
+        app:layout_constraintEnd_toStartOf="@id/bank_current_file_textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h_guideline_two" />
+
+    <TextView
+        android:id="@+id/bank_current_file_textView"
+        style="@style/EditTextTheme"
+        android:layout_marginStart="0dp"
+        android:textColor="@color/colorHighlightText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/bank_current_file_prompt_textView"
+        app:layout_constraintTop_toBottomOf="@+id/h_guideline_two" />
+
+    <Button
+        android:id="@+id/bank_confirm_upload_button"
+        style="@style/ButtonTheme"
+        android:text="@string/action_confirm_document"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bank_current_file_textView" />
+
+
+</android.support.constraint.ConstraintLayout>

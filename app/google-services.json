@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "879572934000",
+    "firebase_url": "https://permacultureapp-ad23a.firebaseio.com",
+    "project_id": "permacultureapp-ad23a",
+    "storage_bucket": "permacultureapp-ad23a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879572934000:android:0f19258ae9a9007f",
+        "android_client_info": {
+          "package_name": "com.example.adamjamesjudd.permacultureapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879572934000-rlp2nt0m97hmur79c15lcphgthdckh2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adamjamesjudd.permacultureapp",
+            "certificate_hash": "82033e333b0a35071d03110dd65c85f837d89bad"
+          }
+        },
+        {
+          "client_id": "879572934000-0n6fb0678073h97kloprbtmvf2357kbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsMyWgr3EV0Wdld-RgzZnryAG7u0B70mg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879572934000-0n6fb0678073h97kloprbtmvf2357kbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spinner_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView"
+    tools:layout_editor_absoluteX="67dp"
+    tools:layout_editor_absoluteY="27dp" />

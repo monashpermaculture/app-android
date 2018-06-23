@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KnowledgeBankHomeActivity">
+
+    <Button
+        android:id="@+id/bank_search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/action_search_documents"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="260dp" />
+
+    <Button
+        android:id="@+id/bank_upload_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/action_upload_document"
+        app:layout_constraintTop_toBottomOf="@+id/bank_search_button"
+        tools:layout_editor_absoluteX="278dp" />
+
+</android.support.constraint.ConstraintLayout>
