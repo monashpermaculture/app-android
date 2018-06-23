@@ -1,6 +1,4 @@
 This document was created on 25/05/18
-  
-  Last modification: 23/06/18
 
 Original Application Produced April 2018 
 
