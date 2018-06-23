@@ -1,7 +1,9 @@
 This document was created on 25/05/18
+  
   Last modification: 23/06/18
 
 Original Application Produced April 2018 
+
 The comprehensive design brief originally devised by Adam Judd 01/04/18
 
 AUTHORS:
@@ -19,13 +21,6 @@ AUTHORS:
 	time: 06/08 -
 	ph: N/A
 	em: sbn0009@student.monash.edu
-  
-  name:
-	role: 
-	status: 
-	time: 
-	ph: 
-	em: 
 
 
 LOCATION:
